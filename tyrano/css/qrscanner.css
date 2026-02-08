@@ -1,0 +1,24 @@
+#base{
+  position: fixed;
+  aspect-ratio: 9 / 16;
+  width: min(100vw, calc(100vh * 9 / 16));
+  height: auto;
+  background-color: aqua;
+  margin: 0 auto;
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+
+}
+
+#canvas{
+  display: none;
+}
+ 
+
+#qrwindow{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
